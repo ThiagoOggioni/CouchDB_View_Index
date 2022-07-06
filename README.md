@@ -1,6 +1,6 @@
 ## Proposta
 
-Realizar uma prova de conceito sobre a utilização da CouchDB para recuperação de dados de forma otimizada utilizando-se de criação de índices e view para a recuperação dos dados.
+Realizar uma prova de conceito sobre a utilização da CouchDB para recuperação de dados de forma otimizada utilizando-se de criação de índices e/ou view.
 
 ## Passos
 
@@ -55,7 +55,7 @@ Importante, caso o atributo utilizado para filtro na consulta não esteja indexa
 
 "warning": "The number of documents examined is high in proportion to the number of results returned. Consider adding a more specific index to improve this."}
 
-Recebendo essa mensagem após a realização da consulta é extremamente aconselhavél a criação do índice que trará ganhos muito significativos para a recuperação de dados.
+Recebendo essa mensagem é extremamente aconselhavél a criação do índice, pois trará ganhos de desempenho muito significativos para a recuperação de dados.
 
 ## 5 - Listar os Índices
 
